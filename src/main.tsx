@@ -1,12 +1,12 @@
-import "./poppins.css"
+import './poppins.css'
 
-import React from "react"
-import { createRoot } from "react-dom/client"
+import React from 'react'
+import { createRoot } from 'react-dom/client'
 
-import { App } from "@/components/App"
+import { App } from '@/components/App'
 
-createRoot(document.getElementById("root") as HTMLDivElement).render(
+createRoot(document.getElementById('root') as HTMLDivElement).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 )
