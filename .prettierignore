@@ -1,5 +1,6 @@
 .prettierignore
 .gitignore
+.eslintrc
 dist
 __generated__
 node_modules
